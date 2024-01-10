@@ -267,6 +267,11 @@ main .selected-movie .close-img:hover{
     .search-bar-div{
         margin-right: 15vw;
     }
+
+    @keyframes selected-nav {
+        from {right: -130px;}
+        to {right: 0;}
+    }
     
 }
 
@@ -308,11 +313,6 @@ main .selected-movie .close-img:hover{
         font-weight: bold;
         font-size: 15px;
     }
-
-    @keyframes selected-nav {
-        from {right: -130px;}
-        to {right: 0;}
-      }
 
 }
 
